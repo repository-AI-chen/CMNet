@@ -7,7 +7,7 @@ from PIL import Image
 
 def get_parser():
     parser = argparse.ArgumentParser(description="Detectron2 demo for builtin models")
-    parser.add_argument('--image_path', default=r'D./datasets/openimage_v6/segmentation_validation/data', metavar="DIR",
+    parser.add_argument('--image_path', default=r'./openimage_v6/segmentation_validation/data', metavar="DIR",
                         help='Original images path')
     parser.add_argument('--current_checkpoint_bin_path', default=r'./save_results_real_bistream_temp/results_coco', metavar="DIR",
                         help='Bin path')
